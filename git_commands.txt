@@ -1,2 +1,3 @@
 git status - current state of project
 git add <file> - adds file to be tracked by git
+git commit -m "Add the git command file to staging area"
