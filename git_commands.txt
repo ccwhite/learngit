@@ -1,0 +1,2 @@
+git status - current state of project
+git add <file> - adds file to be tracked by git
