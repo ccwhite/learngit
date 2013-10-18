@@ -7,3 +7,5 @@ y <- c(3,2,4)
 pdf("sampleplot.pdf")
 plot(x,y)
 dev.off()
+
+## changing my R script
