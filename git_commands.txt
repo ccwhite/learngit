@@ -16,4 +16,4 @@ git checkout master - go back to master branch
 git merge <branch name> merges the other branch into the master branch, changing the master branch
 git branch -d <branch name> - deletes branch now that it is no longer needed
 git push - pushes changes to the remote directory, which has already been declared
-
+git branch - lists available branches
