@@ -1,3 +1,19 @@
 git status - current state of project
 git add <file> - adds file to be tracked by git
-git commit -m "Add the git command file to staging area"
+git commit -m <message>  - commits staging to repos
+git log - gives log of changes so far
+git remote add origin https://github./try-git/try_git.git - takes a remote name and repository url, pushes local repo to server
+git push -u origin master - pushes local changes to origin repo ( remote server)
+git pull origin master - (after time has passed and others have added files, we can pull down any changes from remote git repo)
+get diff HEAD - gets the diff of our most recent commit, which we can refer to using the HEAD pointer
+get diff --staged - option to see the changes just staged
+git reset <file> - unstages files (removes them from git repo)
+git checkout -- <file> - undo changes to file to how they were at last commit
+git branch <branch name> - when working on a bug, this makes a copy of the code where they can make separate commits to.  when the work is done, they can add the branch back into their main master branch
+git checkout <branch name> - switch branches to work within that branch
+git rm <filename> - performs bash command, and stages the the removal of the files 
+git checkout master - go back to master branch
+git merge <branch name> merges the other branch into the master branch, changing the master branch
+git branch -d <branch name> - deletes branch now that it is no longer needed
+git push - pushes changes to the remote directory, which has already been declared
+
